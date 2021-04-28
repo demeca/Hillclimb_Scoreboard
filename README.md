@@ -25,6 +25,8 @@ Set the software to listen to the other end of the com0com connection and output
 ```
 python .\v2rad.py COM9 COM7
 ```
+It will loop forever reading one line at a time from the input serial connection. Press `<ctrl> + c` in the command window to exit.  
+
 To get a list of serial ports run:
 ```
 python .\v2rad.py
